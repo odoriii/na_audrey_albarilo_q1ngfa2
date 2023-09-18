@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block and Inline HTML elements; Introduction to CSS</title>
+    <style>
+        div{
+            margin:20px;
+            padding:20px;
+            border: 1px solid black; 
+        }
+        span{
+            text-decoration: line-through;
+            font-size: larger;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<!--using block elements-->
+<!--<div> tag-->
+    <div style="background-color: rgb(147, 174, 235);"> <!-- simple usage of div--> 
+        div 1
+    </div>
+    <div style="background-color: rgb(176, 202, 224);"> <!--another simple div--> 
+        div 2
+    </div>
+    <hr>
+    <div> <!--div can be nested too--> 
+        root div 
+        <div style="background-color: rgb(141, 238, 238);"> div 1 
+            <div style="background-color: rgb(247, 136, 136);"> div 1a </div>
+            <div style="background-color: black;"> div 1b </div>
+        </div>
+    <div style="background-color: bisque;"> div 2</div>
+    </div> 
+<!--using inline elements-->
+<!--<span> tag -->
+    <p>
+        span tag is a great tag to use when modifying large blocks of text without applying heavy HTML tag usage in betwen sentences or paragraphs. <span> To emphasize or focus a block of text, use span instead of aplying style to the intended text. </span>
+    </p>
+    <hr>
+    <a href="index.html"> Go back to main page</a>
+    <br>
+    <a href="page3.html"> Go to page 3</a>
+</body>
+</html> 
